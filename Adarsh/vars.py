@@ -9,8 +9,8 @@ load_dotenv()
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(getenv('API_ID', '20389440'))
-    API_HASH = str(getenv('API_HASH', 'a1a06a18eb9153e9dbd447cfd5da2457'))
+    API_ID = int(getenv('API_ID', '6572614'))
+    API_HASH = str(getenv('API_HASH', 'AAGbHvEAqZhyAeweaZiFFhw4dOd0Oq_blFI'))
     BOT_TOKEN = str(getenv('BOT_TOKEN', ''))
     name = str(getenv('name', 'filetolinkggbot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
